@@ -86,6 +86,7 @@ class Text:
     arial42 = pygame.font.Font("Recursos/Fuentes/ArialCE.ttf", 42)
     Fpreguntas = pygame.font.Font("Recursos/Fuentes/ArialDef.ttf", 20)
     Fpreg24=pygame.font.Font("Recursos/Fuentes/PreguntasDefinitiva.ttf",24)
+    Fpreg18 = pygame.font.Font("Recursos/Fuentes/PreguntasDefinitiva.ttf", 18)
 
     def __init__(self, coords, font, str, color):
         self.message = str

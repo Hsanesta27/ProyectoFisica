@@ -10,6 +10,14 @@ class Pantalla:
     Cargado = 0
     TextoP = 0
     Iteración = 0
+    Puntuación=0
+
+    Preguntas=[]
+    Respuestas=[]
+
+    PreguntaActiva=0
+
+    iter=0
     '''
     0 = MENÚ PRINCIPAL
     1 = PRESENTACIÓN
@@ -79,11 +87,23 @@ class Pantalla:
                 BaseRespuestas.append(Button((0+490*i,470+88*j),("Recursos/Imagen/RespuestaAzul.png","Recursos/Imagen/RespuestaRoja.png","Recursos/Imagen/RespuestaVerde.png"),0,3))
 
         Pantalla.Widgets=[Fondo1,Fondo2,BasePregunta,BaseRespuestas]
-        Pantalla.Texts=[]
+
+        Puntos=Text((460,0),Text.arial42,str(Pantalla.Puntuación)+" $",(20,20,20))
+
+        Pantalla.Texts=[Puntos]
+
+        for i in range(19):
+            Pantalla.Preguntas.append(Pregunta(i))
 
     @staticmethod
     def CargaPantalla3():
-        pass
+        Pantalla.Cargado=3
+        Pantalla.Widgets=[]
+
+        Resultado=Text((260,300),Text.arial42,"Te has llevado " + str(Pantalla.Puntuación) + " $",(2, 0, 99))
+        Enhorabuena=Text((300,390),Text.arial42,"ENHORABUENA!",(2, 0, 99))
+
+        Pantalla.Texts=[Resultado,Enhorabuena]
 
     @staticmethod
     def Pantalla0():
@@ -123,6 +143,7 @@ class Pantalla:
         elif Eventos[2]:
             Pantalla.TextoP += 1
             CortarIteración=True
+            time.sleep(0.1)
 
         if Pantalla.TextoP > 2:
             Pantalla.Pantalla = 2
@@ -132,8 +153,10 @@ class Pantalla:
 
     @staticmethod
     def Pantalla2():
-        for Text in Pantalla.Texts:
-            Text.show()
+        Pantalla.Respuestas = []
+
+        for i in range(4):
+            Pantalla.Respuestas.append(0)
 
         for Widget in Pantalla.Widgets:
             if Widget==Pantalla.Widgets[3]:
@@ -142,6 +165,63 @@ class Pantalla:
             else:
                 Widget.show()
 
+        for Text in Pantalla.Texts:
+            Text.show()
+
+        if Pantalla.iter==1:
+            Pantalla.iter=0
+            time.sleep(1)
+
+            Pantalla.PreguntaActiva+=1
+
+            Pantalla.Widgets[2].ChangeState(0)
+
+            for i in Pantalla.Widgets[3]:
+                i.ChangeState(0)
+
+
+        if Pantalla.PreguntaActiva == 19:
+            time.sleep(0.2)
+            Pantalla.Pantalla = 3
+            Pantalla.PreguntaActiva = 18
+
+        else:
+            Pantalla.Preguntas[Pantalla.PreguntaActiva].Preguntar()
+
+        d = 0
+
+        for i in Pantalla.Widgets[3]:
+
+            if i.Clicked():
+                Pantalla.Respuestas[d] = 1
+                Pantalla.iter=1
+                time.sleep(0.2)
+                e=0
+                for j in Pantalla.Widgets[3]:
+                    j.ChangeState(Pantalla.Preguntas[Pantalla.PreguntaActiva].CódigoRespuestas[e]+1)
+                    e+=1
+
+                if Pantalla.Respuestas == Pantalla.Preguntas[Pantalla.PreguntaActiva].CódigoRespuestas:
+                    Pantalla.Puntuación+=Pantalla.Preguntas[Pantalla.PreguntaActiva].value
+                    Pantalla.Texts[0].message=str(Pantalla.Puntuación)+" $"
+
+                    Pantalla.Widgets[2].ChangeState(2)
+
+                else:
+                    Pantalla.Widgets[2].ChangeState(1)
+
+                for Widget in Pantalla.Widgets:
+                    if Widget == Pantalla.Widgets[3]:
+                        for i in Widget:
+                            i.show()
+                time.sleep(1)
+
+            d += 1
+
     @staticmethod
     def Pantalla3():
-        pass
+        from Main import screen
+
+        screen.fill((0, 72, 255))
+        for i in Pantalla.Texts:
+            i.show()

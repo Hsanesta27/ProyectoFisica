@@ -51,7 +51,7 @@ class Pantalla:
         '''Quién quiere ser nobel! El juego en el que tendrás que resolver 30 preguntas  de ciencia para llevarte no solo el millón de dólares que suponen el premio sino el doble, estás preparad@? pues adelante y mucha suerte!'''
 
         P1_1 = Text((0, 565), Text.arial24,
-                    "Quién quiere ser nobel! El juego en el que tendrás que resolver 30 preguntas de",
+                    "Quién quiere ser nobel! El juego en el que tendrás que resolver 19 preguntas de",
                     (2, 0, 99))
         P1_2 = Text((0, 589), Text.arial24,
                     "ciencia para llevarte no solo el millón de dólares que suponen el premio, sino el doble!", (2, 0, 99))
@@ -129,6 +129,7 @@ class Pantalla:
 
         if not CortarIteración:
             Pantalla.Iteración+=1
+
     @staticmethod
     def Pantalla2():
         for Text in Pantalla.Texts:

@@ -1,37 +1,37 @@
-La temperatura se representa en los gráficos como...,t,0,masa,0,T,1,volumen,0
-El tiempo se representa en los gráficos como...,ºC,0,K,0,v/m,0,t,1
-Una magnitud es...,toda caracterTstica que no se puede medir,0,todo aquello que se mide en metros,0,todo aquello de la materia que podemos medir,1,todo,0
-La unidad del tiempo en el sistema internacional es...,k,0,s,1,candela,0,mol,0
-Cu!ntas magnitudes fundamentales hay,7,1,3,0,5,0,9,0
-¿QuW magnitud fundamental hace referencia la candela?,cantidad materia,0,distancia,0,masa,0,intensidad lumTnica,1
-¿Cu!les son las variables del estudio de los gases?,presiUn_ volumen_ temperatura,1,presiUn_ volumen_ intensidad,0,volumen_ longitud_ disoluciUn,0,Temperatura_ magnitud_ presiUn,0
-$e define como la fuerza por unidad de superficie...,temperatura,0,presiUn,1,volumen,0,gas,0
-Nos mide la energTa interna de la materia...,volumen,0,presiUn,0,temperatura,1,choques,0
-Es el espacio ocupado por la materia...,masa,0,temperatura,0,presiUn,0,volumen,1
-$i la temperatura es constante...,el espacio o recipiente no varTa,0,la temperatura disminuye,0,las partTculas se mover!n siempre a la misma velocidad ,1,aumentar! el volumen,0
-$i el volumen es constante y la temperatura aumenta...,aumenta la presiUn,1,disminuye la presiUn,0,la presiUn se mantiene constante,0,la temperatura no puede aumentar si el volumne es constante,0
-$i la presiUn es constante y la temperatura disminuye...,disminuye el volumen,1,aumenta el volumen,0,se mantiene constante el volumen,0,la presiUn no puede ser constante si la temperatura disminuye,0
-¿QuW es una disoluciUn?,un componente,0,mezcla de dos o m!s componentes,1,mezcla de tres o m!s componentes,0,no es ninguna mezcla,0
-¿QuW es el disolvente?,el que se encuentra en menor proporciUn,0,el que se encuentra en mayor proporciUn,1,la cantidad de soluto que hay,0,otra ,0
-¿QuW es el soluto?,el que se encuentra en mayor proporciUn,0,el que se encuentra en media proporciUn,0,no forma parte de la disolución,0,otra ,1
-Tipos de concentraciUn,diluidas y concentradas,0,diluidas,0,"diluidas, concentradas y saturadas",1,saturadas,0
-¿Cu!l es la forma correcta de expresar la concentraciUn?,gramos/litros,1,metros/centTmetros,0,volumen/presiUn,0,masa/volumen,0
-El elemento del Calcio se representa...,Ca,1,Ka,0,C,0,Cl,0
-El elemento del Francio se representa...,F,0,Fr,1,Fa,0,Fg,0
-El elemento del Mercurio se representa...,Me,0,Mr ,0,Hg,1,He,0
-Las siglas Ge representan al elemento...,Galio,0,Cobre,0,Cadmio,0,Germanio,1
-Br representa el elemento...,Boro,0,Bromo,1,Borano,0,BUrico,0
-Un mol es...,"6,022 x 10^23 unidades",1,"6,22x 10^23 unidades",0,"6,33x 10^23 unidades",0,"6,033x10^23 unidades",0
-La K representa al elemento...,azVfre,0,cesio,0,Potasio,1,Litio,0
-Bario se representa con las siglas...,Bar,0,B,0,H,0,Ba,1
-La masa molecular se representa con,s,0,u,1,m,0,números impares,0
-Un compuesto est! formado por...,disoluciones diferentes,0,!tomos iguales,0,!tomos diferentes,1,m!s de un compuesto,0
-El nVmero atUmico y la masa atUmica,no definen al !tomo,0,definen a los compuestos,0,definen las ecuaciones,0,definen a cada !tomo,1
-TetrahidrUxido de estaño,Sn(OH)4,1,HidrUxido de estaño (II),0,HidrUxido de estaño (VI),0,HidrUxido Estannioso,0
-MonUxido de cromo,{xido de cromo (III),0,{xido de cromo (II),1,{xido crUmico,0,AnhTdrido Cromoso,0
-B(OH)3,TetrahidrUxido de Boro,0,Trihidruro de Boro,0,HidrUxido bUrico,1,Borano,0
-HgBr,Monomercuriuro de bromo,0,Bromuro de Mercurio(II),0,Mercuriuro Bromoso,0,Bromuro mercurioso,1
-Calcula la masa molecular del NH3,16_031 g/mol,0,17_031 g/mol,1,17_031 mol/g,0,16_031 g,0
-Calcula la masa molecular de la cafeTna C8H10N4O2,190_19 g,0,194_19 g/mol,1,224_23 g/mol,0,194_19 moles,0
-Calcula la masa molar de C20H25N3O,323_43 g/mol,1,540_34 g/mol,0,53_34 g/mol,0,3231_43 g/mol,0
-Calcula la masa molar de la glucosa C6H12O6,160 g/mol,0,140 g/mol,0,180_156 g/mol,1,155_156 g/mol,0
+La temperatura se representa en los gráficos como...,t,0,masa,0,T,1,volumen,0,75000
+El tiempo se representa en los gráficos como...,ºC,0,K,0,v/m,0,t,1,75000
+Una magnitud es...,toda caracterTstica que no se puede medir,0,todo aquello que se mide en metros,0,todo aquello de la materia que podemos medir,1,todo,0,75000
+La unidad del tiempo en el sistema internacional es...,k,0,s,1,candela,0,mol,0,50000
+Cu!ntas magnitudes fundamentales hay,7,1,3,0,5,0,9,0,50000
+¿QuW magnitud fundamental hace referencia la candela?,cantidad materia,0,distancia,0,masa,0,intensidad lumTnica,1,50000
+¿Cu!les son las variables del estudio de los gases?,presiUn_ volumen_ temperatura,1,presiUn_ volumen_ intensidad,0,volumen_ longitud_ disoluciUn,0,Temperatura_ magnitud_ presiUn,0,50000
+$e define como la fuerza por unidad de superficie...,temperatura,0,presiUn,1,volumen,0,gas,0,50000
+Nos mide la energTa interna de la materia...,volumen,0,presiUn,0,temperatura,1,choques,0,50000
+Es el espacio ocupado por la materia...,masa,0,temperatura,0,presiUn,0,volumen,1,50000
+$i la temperatura es constante...,el espacio o recipiente no varTa,0,la temperatura disminuye,0,las partTculas se mover!n siempre a la misma velocidad,1,aumentar! el volumen,0,50000
+$i el volumen es constante y la temperatura aumenta...,aumenta la presiUn,1,disminuye la presiUn,0,la presiUn se mantiene constante,0,la temperatura no puede aumentar si el volumne es constante,0,50000
+$i la presiUn es constante y la temperatura disminuye...,disminuye el volumen,1,aumenta el volumen,0,se mantiene constante el volumen,0,la presiUn no puede ser constante si la temperatura disminuye,0,50000
+¿QuW es una disoluciUn?,un componente,0,mezcla de dos o m!s componentes,1,mezcla de tres o m!s componentes,0,no es ninguna mezcla,0,50000
+¿QuW es el disolvente?,el que se encuentra en menor proporciUn,0,el que se encuentra en mayor proporciUn,1,la cantidad de soluto que hay,0,otra,0,50000
+¿QuW es el soluto?,el que se encuentra en mayor proporciUn,0,el que se encuentra en media proporciUn,0,no forma parte de la disolución,0,otra,1,50000
+Tipos de concentraciUn,diluidas y concentradas,0,diluidas,0,"diluidas, concentradas y saturadas",1,saturadas,0,50000
+¿Cu!l es la forma correcta de expresar la concentraciUn?,gramos/litros,1,metros/centTmetros,0,volumen/presiUn,0,masa/volumen,0,50000
+El elemento del Calcio se representa...,Ca,1,Ka,0,C,0,Cl,0,100000
+El elemento del Francio se representa...,F,0,Fr,1,Fa,0,Fg,0,100000
+El elemento del Mercurio se representa...,Me,0,Mr,0,Hg,1,He,0,100000
+Las siglas Ge representan al elemento...,Galio,0,Cobre,0,Cadmio,0,Germanio,1,100000
+Br representa el elemento...,Boro,0,Bromo,1,Borano,0,BUrico,0,100000
+Un mol es...,"6,022 x 10^23 unidades",1,"6,22x 10^23 unidades",0,"6,33x 10^23 unidades",0,"6,033x10^23 unidades",0,100000
+La K representa al elemento...,azVfre,0,cesio,0,Potasio,1,Litio,0,100000
+Bario se representa con las siglas...,Bar,0,B,0,H,0,Ba,1,100000
+La masa molecular se representa con,s,0,u,1,m,0,números impares,0,100000
+Un compuesto est! formado por...,disoluciones diferentes,0,!tomos iguales,0,!tomos diferentes,1,m!s de un compuesto,0,250000
+El nVmero atUmico y la masa atUmica,no definen al !tomo,0,definen a los compuestos,0,definen las ecuaciones,0,definen a cada !tomo,1,250000
+TetrahidrUxido de estaño,Sn(OH)4,1,HidrUxido de estaño (II),0,HidrUxido de estaño (VI),0,HidrUxido Estannioso,0,250000
+MonUxido de cromo,{xido de cromo (III),0,{xido de cromo (II),1,{xido crUmico,0,AnhTdrido Cromoso,0,250000
+B(OH)3,TetrahidrUxido de Boro,0,Trihidruro de Boro,0,HidrUxido bUrico,1,Borano,0,250000
+HgBr,Monomercuriuro de bromo,0,Bromuro de Mercurio(II),0,Mercuriuro Bromoso,0,Bromuro mercurioso,1,250000
+Calcula la masa molecular del NH3,16_031 g/mol,0,17_031 g/mol,1,17_031 mol/g,0,16_031 g,0,250000
+Calcula la masa molecular de la cafeTna C8H10N4O2,190_19 g,0,194_19 g/mol,1,224_23 g/mol,0,194_19 moles,0,250000
+Calcula la masa molar de C20H25N3O,323_43 g/mol,1,540_34 g/mol,0,53_34 g/mol,0,3231_43 g/mol,0,250000
+Calcula la masa molar de la glucosa C6H12O6,160 g/mol,0,140 g/mol,0,180_156 g/mol,1,155_156 g/mol,0,250000

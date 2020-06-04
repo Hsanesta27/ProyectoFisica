@@ -1,4 +1,4 @@
-La temperatura se representa en los gr!ficos como...,t,0,masa,0,E,1,volumen,0,75000
+La temperatura se representa en los gr!ficos como...,t,0,masa,0,|,1,volumen,0,75000
 El tiempo se representa en los gr!ficos como...,C,0,K,0,v/m,0,t,1,75000
 Cualquier magnitud es...,toda caracterTstica que no se puede medir,0,todo aquello que se mide en metros,0,todo aquello de la materia que podemos medir,1,todo,0,75000
 La unidad del tiempo en el sistema internacional es...,k,0,s,1,candela,0,mol,0,50000
@@ -14,7 +14,7 @@ $i la presiUn es constante y la temperatura disminuye...,disminuye el volumen,1,
 QuW es una disoluciUn?,un componente,0,mezcla de dos o m!s componentes,1,mezcla de tres o m!s componentes,0,no es ninguna mezcla,0,50000
 QuW es el disolvente?,el que se encuentra en menor proporciUn,0,el que se encuentra en mayor proporciUn,1,la cantidad de soluto que hay,0,otra,0,50000
 QuW es el soluto?,el que se encuentra en mayor proporciUn,0,el que se encuentra en media proporciUn,0,no forma parte de la disolución,0,otra,1,50000
-Tipos de concentraciUn,diluidas y concentradas,0,diluidas,0,"diluidas, concentradas y saturadas",1,saturadas,0,50000
+|ipos de concentraciUn,diluidas y concentradas,0,diluidas,0,"diluidas, concentradas y saturadas",1,saturadas,0,50000
 Cu!l es la forma correcta de expresar la concentraciUn?,gramos/litros,1,metros/centTmetros,0,volumen/presiUn,0,masa/volumen,0,50000
 El elemento del Calcio se representa...,Ca,1,Ka,0,C,0,Cl,0,100000
 El elemento del Francio se representa...,F,0,Fr,1,Fa,0,Fg,0,100000
@@ -23,13 +23,13 @@ El elemento del Bario se representa...,Bar,0,B,0,H,0,Ba,1,100000
 Ge representa el elemento...,Galio,0,Cobre,0,Cadmio,0,Germanio,1,100000
 Br representa el elemento...,Boro,0,Bromo,1,Borano,0,BUrico,0,100000
 La K representa al elemento...,azVfre,0,cesio,0,Potasio,1,Litio,0,100000
-Un mol es...,"6,022 x 10^23 unidades",1,"6,22x 10^23 unidades",0,"6,33x 10^23 unidades",0,"6,033x10^23 unidades",0,100000
+1 mol es...,"6,022 x 10^23 unidades",1,"6,22x 10^23 unidades",0,"6,33x 10^23 unidades",0,"6,033x10^23 unidades",0,100000
 La masa atUmica se representa con,s,0,u,1,m,0,nVmeros impares,0,100000
-Un compuesto est! formado por...,disoluciones diferentes,0,!tomos iguales,0,!tomos diferentes,1,m!s de un compuesto,0,100000
+Los compuesto est!n formados por...,disoluciones diferentes,0,!tomos iguales,0,!tomos diferentes,1,m!s de un compuesto,0,100000
 El nVmero atUmico y la masa atUmica,no definen al !tomo,0,definen a los compuestos,0,definen las ecuaciones,0,definen a cada !tomo,1,100000
-TetrahidrUxido de estaño,Sn(OH)4,1,HidrUxido de estaño (II),0,HidrUxido de estaño (VI),0,HidrUxido Estannioso,0,250000
+|etrahidrUxido de esta}o,$n(OH)4,1,HidrUxido de esta}o (II),0,HidrUxido de esta}o (VI),0,HidrUxido Estannioso,0,250000
 MonUxido de cromo,{xido de cromo (III),0,{xido de cromo (II),1,{xido crUmico,0,AnhTdrido Cromoso,0,250000
-B(OH)3,TetrahidrUxido de Boro,0,Trihidruro de Boro,0,HidrUxido bUrico,1,Borano,0,250000
+B(OH)3,|etrahidrUxido de Boro,0,|rihidruro de Boro,0,HidrUxido bUrico,1,Borano,0,250000
 HgBr,Monomercuriuro de bromo,0,Bromuro de Mercurio(II),0,Mercuriuro Bromoso,0,Bromuro mercurioso,1,250000
 Calcula la masa molecular del NH3,16_031 g/mol,0,17_031 g/mol,1,17_031 mol/g,0,16_031 g,0,250000
 Calcula la masa molecular de la cafeTna C8H10N4O2,190_19 g,0,194_19 g/mol,1,224_23 g/mol,0,194_19 moles,0,250000
